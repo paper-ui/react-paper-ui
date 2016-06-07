@@ -121,13 +121,7 @@
         "no-labels": 2,
         "no-lone-blocks": 2,
         "no-loop-func": 2,
-        "no-magic-numbers": [
-            2,
-            {
-                "ignoreArrayIndexes": true,
-                "enforceConst": true
-            }
-        ],
+        "no-magic-numbers": 0,
         "no-multi-spaces": 2,
         "no-multi-str": 2,
         "no-native-reassign": 2,
@@ -243,7 +237,7 @@
                 "allowArrowFunctions": true
             }
         ],
-        "id-length": 2,
+        "id-length": 0,
         "indent": [
             2,
             4,
@@ -411,7 +405,7 @@
                 "after": true
             }
         ],
-        "sort-vars": 1,
+        "sort-vars": 0,
         "space-before-blocks": [
             2,
             "always"
@@ -432,7 +426,7 @@
                 "nonwords": false,
                 "overrides": {
                     "new": false,
-                    "++": true
+                    "++": false
                 }
             }
         ],
